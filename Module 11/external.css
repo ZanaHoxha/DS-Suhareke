@@ -1,0 +1,17 @@
+
+        .slider-paragraph{background-color: darkslategrey;
+        padding: 20px;
+        margin:30px;
+        width: 200px;
+    color: beige;}
+    .zana{ background-color: lightpink
+        ;padding: 20px;
+    margin-left: 300px;
+width: 200px;
+color: deeppink;}
+.bg-img{ background: url(chris.webp);width: 50%; height: 50%;}
+.border{
+    border-width: 3px;
+    border-style: dotted;
+}
+    
