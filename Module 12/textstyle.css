@@ -1,0 +1,9 @@
+.textstyle{
+    color: blueviolet;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-decoration:dotted;
+    text-align: center;
+    font-family:'Cursive';
+    font-size: 30px;
+}
