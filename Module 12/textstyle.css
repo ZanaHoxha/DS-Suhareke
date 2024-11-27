@@ -15,3 +15,8 @@ color: crimson;
 font-size: 16px;
 font-weight: 300;
 }
+a{color:darkmagenta}
+a:link{color:darkred}
+a:visited{color: deeppink;}
+a:hover{color: goldenrod;}
+a:active{color: lightpink;}

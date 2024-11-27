@@ -1,0 +1,31 @@
+.zan{color:darkmagenta;
+    border:2px solid magenta; 
+    background-color: rgb(223, 177, 223);
+padding: 20px;
+margin:30px;
+width: 70px;
+
+}
+.zanaa{color: plum;
+    border:2px solid rgb(112, 58, 112); 
+    background-color: rgb(117, 77, 117);
+padding: 20px;
+margin:30px;
+width: 200px;}
+.er{color: rgb(96, 96, 228);
+    border:2px solid lightblue; 
+    background-color: rgb(145, 136, 230);
+padding: 20px;
+margin:30px;
+width: 70px;}
+.erra{color: rgb(68, 12, 12);
+    border:2px solid rgb(37, 3, 3); 
+    background-color: rgb(151, 76, 76);
+padding: 20px;
+margin:30px;
+width: 200px;}
+a{color:darkmagenta}
+a:link{color:darkred}
+a:visited{color: deeppink;}
+a:hover{color: goldenrod;}
+a:active{color: lightpink;}
