@@ -1,0 +1,27 @@
+ul{
+    list-style-type: upper-alpha;
+    border:2px dotted palevioletred;
+    color:fuchsia;
+    font-family:cursive;
+    list-style-image: url(./1.jpg) ;
+    list-style-position: inside;
+    margin:2px;
+
+}
+ul li{border:1px solid rgb(228, 175, 225)}
+ol{
+    list-style-type: upper-roman;
+    border:2px dotted palevioletred;
+    color:fuchsia;
+    font-family:cursive;
+    margin:2px;
+
+}
+ol li{border:1px solid purple}
+table{ border:2px solid;
+
+}
+table tr:nth-child(odd){
+ background-color:aqua;
+color:black;
+}
