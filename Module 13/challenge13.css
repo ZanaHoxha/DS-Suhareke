@@ -1,0 +1,18 @@
+ul{
+    color:darkmagenta;
+    margin: 2px solid darkmagenta;
+    background-color: lightpink;
+    list-style-type:circle ;
+    font-family: arial;
+    font-size: medium;
+    width: 80px;
+}
+ol{
+    color:darkmagenta;
+    margin: 2px solid darkmagenta;
+    background-color: lightpink;
+    list-style-type:upper-roman;
+    font-family: arial;
+    font-size: medium;
+    width: 80px;
+}
