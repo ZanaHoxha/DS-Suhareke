@@ -1,0 +1,8 @@
+input:in-range{ background-color: darkgray; border: 2px solid black;}
+input:out-of-range{ background-color: mediumpurple; border: 2px solid purple}
+input:focus{ background-color: lightpink; border: 2px solid deeppink}
+input:hover{ background-color: coral; border:2px solid orangered}
+div{ margin:40px; 
+background-color: khaki;
+padding: 10px;
+width: 200px;}
