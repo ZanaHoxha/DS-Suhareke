@@ -1,0 +1,20 @@
+.z12{
+    background-color: lightpink;
+    width:200px;
+    
+}
+ul{ border:1px solid hotpink;}
+ul li{
+    color: deeppink;
+    font-family:fantasy;
+   
+}
+.f34{
+    background-color: cornflowerblue;
+    width:200px;
+}
+ol li{
+    color:blue;
+    font-family:monospace;
+    
+}
