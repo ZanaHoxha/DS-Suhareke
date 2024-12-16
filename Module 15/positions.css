@@ -1,37 +1,62 @@
 .static{
-    border: 1px solid #000 ;
+    border: 3px solid plum ;
     width: 300px;
     height:300px;
     position:static;
     padding: 10px;
 }
 .relative{
-    border: 1px solid #000 ;
-    width: 300px;
-    height:300px;
+    border: 3px solid #803c3c ;
+    width: 600px;
+    height:600px;
     position:relative;
     padding: 10px;
-    left:500px;
-    top:500px;
+    left:400px;
+    top:900px;
+
 }
 .absolute{
-    border: 1px solid #000 ;
+    border: 3px solid #1c5e1c ;
     width: 300px;
     height:300px;
     position:absolute;
     padding: 10px;
+    left:297px;
+    top:298px;
 }
 .sticky{
-    border: 1px solid #000 ;
+    border: 3px solid #ff0077 ;
     width: 300px;
     height:300px;
     position:sticky;
     padding: 10px;
+    top: 30px;
+    
 }
 .fixed{
-    border: 1px solid #000 ;
+    border: 3px solid #150d8a ;
     width: 300px;
     height:300px;
     position:fixed;
     padding: 10px;
+    top: 80px;
+    left:600px;
 }
+.relative1{
+    border: 3px solid #17c97f ;
+    width: 800px;
+    height:800px;
+    position:relative;
+    padding: 10px;
+    left:800px;
+    top:400px;}
+
+    .absolute1{
+        border: 3px solid #a320bd ;
+        width: 50px;
+        height:50px;
+        position:absolute;
+        padding: 10px;
+        top: calc(50% - 20px);
+        left:calc(50% - 20px);
+    }
