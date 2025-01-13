@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: green;
+            --secondary-color: blue;
+            --spacing-inside-menu-items:20px;
+        }
+        a{
+            text-decoration:none ;
+            color: #000;
+        }
+        .dropdown{
+            position: relative;
+        }
+        .dropdown-content {
+            backround-color: var(--primary-color)
+            display:none;
+            position:absolute;
+            padding:7px 14px;
+            border:2px darkmagenta ;
+            left: 0;
+            top:24;
+        }
+        .dropdown:hover  .dropdown-content{
+            display: inline-block;
+        }
+        .tooltip{
+            display:inline-block;
+        }
+        .tooltip-text{
+            visibility: hidden;
+            position:absolute;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        .tooltip:hover .tooltip-text{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+<div class="dropdown">
+    <a href="#">hover here</a>
+    <div class="dropdown-content">
+        <p>Home</p>
+        <p>Home</p>
+        <p>Home</p>
+    </div>
+</div>
+<div class="tooltip">
+    tooltip 
+        <div class="tooltip-text">Tooltip text</div>  
+
+</div>
+
+</body>
+</html>
