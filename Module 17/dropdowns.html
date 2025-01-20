@@ -18,7 +18,7 @@
             position: relative;
         }
         .dropdown-content {
-            backround-color: var(--primary-color)
+            background-color:var(--primary-color);
             display:none;
             position:absolute;
             padding:7px 14px;
@@ -41,6 +41,52 @@
         .tooltip:hover .tooltip-text{
             visibility: visible;
         }
+        h2::before{
+            counter-increment: number;
+            content: counter(number);
+            background-color: antiquewhite;
+            border-radius: 50%;
+            padding: 5px 12Px;
+            color: hotpink;
+            margin: 10px;
+
+
+        }
+        body{
+            counter-reset: number;
+        }
+        .z12{
+            margin: 15px;
+            width: 200px;
+            height: 200px;
+            border: 4px solid  rgb(148, 80, 91);
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            box-shadow: 2px 2px 4px 5px grey;
+          
+        }
+        .l34{
+            margin: 15px;
+            width: 200px;
+            height: 200px;
+            background-color: indianred;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+           
+        }
+        .s56{ 
+            width: 500px;
+            height: 500px;
+            background:
+            url(Damon.webp)
+            top center
+            no-repeat
+            fixed
+            padding-box
+            content-box
+            red;
+        
+        }
     </style>
 </head>
 <body>
@@ -57,6 +103,17 @@
         <div class="tooltip-text">Tooltip text</div>  
 
 </div>
+<h1>Digital School</h1>
+    <h2> Zana</h2>
+    <h2>Arjona</h2>
+    <h2>Era</h2>
+    <h2>Greta</h2>
+    <h2>Altin</h2>
+    <h2>Dion</h2>
+<div class="z12"> 
 
+</div>
+<div class="l34"></div>
+<div clas="s56"></div>
 </body>
 </html>
