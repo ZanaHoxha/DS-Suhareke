@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: lightpink;
+            padding: 20px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 300px;
+            align-items: center;
+        }
+        .flex-container> div{
+            padding:20px;
+            border: 1px solid magenta;
+            color:white;
+            margin:20px;
+
+        }
+        .flex-container> div:nth-child(1){
+       
+            background-color: hotpink;
+        
+           
+        }
+        .flex-container> div:nth-child(2){
+         
+            background-color: hotpink;
+     
+
+        }
+        .flex-container> div:nth-child(3){
+               background-color: hotpink;
+     
+        }
+        .flex-container> div:nth-child(4){
+          
+            background-color: hotpink;
+        
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class=" flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+</html>
