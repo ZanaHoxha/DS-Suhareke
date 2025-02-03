@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox{
+           display: flex;
+            background-color: lightpink;
+            padding: 10px;
+            flex-direction:row;
+            height: 150px;
+            flex-wrap: nowrap;
+            align-items:center;
+        }
+        .flexbox>div{
+            border: 2px solid rgb(92, 1, 58);
+            margin:8px;
+            padding: 8px;
+        }
+        .flexbox> div:nth-child(1){
+            background-color: deeppink;
+            height: 50px;
+        }
+        .flexbox> div:nth-child(2){
+            background-color: deeppink;
+            height: 50px;
+        }
+        .flexbox> div:nth-child(3){
+            background-color: deeppink;
+            height: 50px;
+        }
+        .flexbox> div:nth-child(4){
+            background-color: deeppink;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div>zana1</div>
+        <div>zana2</div>
+        <div>zana3</div>
+    </div>
+</body>
+</html>
