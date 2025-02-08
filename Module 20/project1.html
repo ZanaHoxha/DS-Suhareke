@@ -42,7 +42,7 @@
             font-size: 42px ;
         }
         .button {
-            text-align:center;
+            align-items:center;
             text-decoration: none;
             border: 1px solid #eb7d4b;
             width:290px;
@@ -50,11 +50,13 @@
             background-color:#eb7d4b ;
             color: white;
             font-size: 18px;
-            border-radius: 1px;
+            border-radius: 2px;
             padding-top: 25px;
             padding-bottom: 25px;
             padding-left: 81px;
             padding-right: 81px;
+            margin-left: 480px;
+            margin-top: 55px;
         }
         #section2{
             height:745px;
@@ -98,13 +100,65 @@
             font-size: 20px;
             color:white;
         }
+        .section21{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
         #section3{
-            height:745px;
+            height:914px;
             background-color: #e7f1f8;
             margin:0px;
+            position: relative;
+        }
+        .s3parts>div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #878787;
+            background-color: #878787;
+            border-radius: 50%;
+
+        }
+        .s3parts{
+            margin: 40px;
+        }
+        .s3parts>h5{
+            font-size: 20px;
+            color: #3c4761;
+            text-align: center;
+        }
+        .s3parts>p{
+            font-size: 16px;
+            text-align: center;
+            color: #3c4761;
+        }
+        .blue{
+            color:#30bae7 !important;
+            
+          
+        }
+        .section3part{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .section31{
+            margin-top: 100px;
+            margin-left: 80px;
+            margin-right: 80px;
+            position:absolute;
+        }
+        .s3text{
+        
+            text-align: center;
+            color: #3c4761;
+        }
+        .s3text>h2{
+            font-size: 40px;
         }
         #section4{
-            height:653px;
+            height:655px;
             background-color: #ffffff;
             margin:0px;
         }
@@ -157,12 +211,13 @@
             <a href="#" class="button">WORK WITH US!</a>
     </section>
     <section id="section2">
+        <div class=section21>
         <div class="text2">
             <h2 class="heading2">SERVICES WE PROVIDE</h2>
             <p>We are working with both individuals and businesses from all over the globe 
                 <br> to create awesome websites and applications.</p>
         </div>
-        <Div class="photos"> 
+        <div class="photos"> 
             <div> <img src="flag.png" > 
                 <h5>BRANDING</h5>
                 <P>Lorem ipsum dolor sit amet,<br>  consectetuer adipiscing elit,<br> sed diam nonummy nibh.</P>
@@ -181,9 +236,47 @@
                 <H5>ROCKET SCIENCE</H5> 
                 <P>Et harum quidem rerum est <br>et expedita distinctio. Nam<br> libero tempore.</P>
             </div>
-             </Div>
+         </div>
+         </div>
     </section>
-    <section id="section3"></section>
+    <section id="section3">
+    <div class="section31">
+        <div class="s3text">
+        <h2>MEET OUR BEAUTIFUL TEAM</h2>
+        <p>We are a small team of designers and developers, who help brands with big ideas.
+        </p>
+        </div>
+        <div class="section3part">
+        <div class="s3parts">
+            <div></div>
+            <h5>ANNE HATHAWAY</h5>
+            <p class="blue">CEO / Marketing Guru</p>
+            <p>Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit, 
+            <br>sed diam nonummy nibh <br>euismod tincidunt ut laoreet <br> dolore magna.</p>
+        </div>
+        <div class="s3parts">      
+            <div></div>
+            <h5>KATE UPTON</h5>
+            <p class="blue">Creative Director</p>   
+            <p>Duis aute irure dolor in in <br> voluptate velit esse cillum <br> dolore 
+            fugiat nulla pariatur. <br> Excepteur sint occaecat non <br> diam proident.</p>
+        </div>
+        <div class="s3parts">
+            <div></div>
+            <h5>OLIVIA WILDE</h5>
+            <p class="blue">Lead Designer</p>   
+            <p> Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit,sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt. </p>
+        </div>
+        <div class="s3parts">
+            <div></div>
+            <h5>ASHLEY GREENE</h5>
+            <p class="blue">SEO / Developer</p>  
+            <p>Sed ut perspiciatis unde <br> omnis iste natus error sit <br> voluptatem accusantium
+            <br> doloremque laudantium, <br> totam rem aperiam</p>
+        </div>
+        </div>
+    </div>
+    </section>
     <section id="section4"></section>
     <section id="section5"></section>
     <section id="section6"></section>
