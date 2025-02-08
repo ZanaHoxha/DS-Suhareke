@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         body{
-            font-family:'monospace';
+            font-family:'open sans' ;
           margin: 0px;
         }
         #section1{
@@ -55,7 +55,7 @@
             padding-bottom: 25px;
             padding-left: 81px;
             padding-right: 81px;
-            margin-left: 480px;
+            margin-left: 460px;
             margin-top: 55px;
         }
         #section2{
@@ -150,7 +150,6 @@
             position:absolute;
         }
         .s3text{
-        
             text-align: center;
             color: #3c4761;
         }
@@ -161,22 +160,166 @@
             height:655px;
             background-color: #ffffff;
             margin:0px;
+            position: relative;
+        }
+        .section41{
+            
+            margin-left: 80px;
+            margin-right: 80px;
+            position:absolute;
+        }
+        .s4text>h2{
+            font-size: 40px;
+
+        }
+        .s4text>p{
+            font-size: 16px;
+            text-align: center;
+            color: #3c4761;
+        }
+        .s4photos>div>img{
+            height:160px;
+            width:auto;
+            
+           
+        }
+        .s4photos>div>h4{
+            font-weight:bolder;
+            text-align: center;
+            color: #3c4761;
+            font-size: 18px;
+            
+        }
+
+
+        .s4photos{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px;
+        }
+        .s4text{
+            text-align: center;
+            color: #3c4761;
+            margin-top: 120px ;
+            
+        }
+        .s4parts{
+            margin-left:40px;
+            margin-right:40px;
         }
         #section5{
             height:1423px;
             background-color: #ffdd99;
             margin:0px;
+            position: relative;
+        }
+        .section51{           
+            position:absolute;
+        }
+        .s5text{
+            text-align: center;
+            color: #3c4761;
+            margin-top: 120px ;
+        }
+        .s5text>h2{
+            font-size: 40px;
+
+        }
+        .s5text>p{
+            font-size: 16px;
+            text-align: center;
+            color: #3c4761;
+        }
+        .s5nav{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .s5nav>a{
+            margin: 10px;
+            border: 1px solid #ebc985;
+            border-radius: 2px;
+            background-color: #ebc985;
+            padding: 10px;
+            text-decoration: none;
+            color:#3c4761 ;
+        }
+        .s5nav :nth-child(1){
+            background-color: #ffffff;
+        }
+        .s5photos{
+            display: flex;
+            flex-wrap: wrap;
+            margin:120px;
+            justify-content: space-evenly;
+        }
+        .s5photos>div>img{
+            width: 510px;
+        }
+        .s5photos>div>p{
+            text-align: center;
+            font-size: 16px;
+            color: #3c4761;
+        }
+        .section51>a{
+            border: 1px solid #17c2a380;
+            align-items:center;
+            text-decoration: none;
+            width:290px;
+            height:68px;
+            background-color:#17c2a4 ;
+            color: white;
+            font-size: 18px;
+            border-radius: 2px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 81px;
+            padding-right: 81px;
+            margin-left: 455px;
+            margin-top: 55px;
         }
         #section6{
             height:892px;
             background-color: #d74580;
             margin:0px;
+            position: relative;
+        }
+        .circle{
+            width:100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid #878787;
+            background-color: #878787;
+            display: inline-block;
+
+        }
+        .s6photo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 100px;
+            position: absolute;
+        }
+        .s6circle{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           
+        }
+        .s6circlw>div{
+            margin: 20px;
+            justify-content: space-between;
+           
+
         }
         #section7{
             height:930px;
             background-color: #3c5399;
             margin:0px;
         }
+        
 
     </style>
 </head>
@@ -277,9 +420,123 @@
         </div>
     </div>
     </section>
-    <section id="section4"></section>
-    <section id="section5"></section>
-    <section id="section6"></section>
+    <section id="section4">
+    <div class="section41">
+        <div class="s4text">
+            <h2>WE GOT SKILLS!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                <br> tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="s4photos">
+            <div class="s4parts">
+                <img src="90.png" >
+                <h4>WEB DESIGN</h4>
+            </div>
+            <div class="s4parts">
+                <img src="75.png" >
+                <h4>HTML / CSS</h4>
+            </div>
+            <div class="s4parts">
+                <img src="70.png" >
+                <h4>GRAPHIC DESIGN</h4>
+            </div>
+            <div class="s4parts">
+                <img src="85.png" >
+                <h4>UI / UX</h4>
+            </div>
+        </div>
+    </div>
+      
+    </section>
+    <section id="section5">
+        <div class="section51">
+            <div class="s5text">
+                <h2>OUR PORTFOLIO</h2>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                   <br> consectetur, adipisci velit, sed quia non numquam</p>
+            </div>
+            <div class="s5nav">
+                <a href="#">ALL</a>
+                <a href="#">WEB</a>
+                <a href="#">APPS</a>
+                <a href="#">ICONS</a>
+            </div>
+            <div class="s5photos">
+                <div>
+                    <img src="1.png" >
+                    <p>ISOMETRIC PERSPECTIVE MOCK-UP</p>
+                </div>
+                <div> 
+                    <img src="2.png" >
+                    <p>TIME ZONE APP UI</p>
+                </div>
+                <div>
+                    <img src="3.png" >
+                    <p>VIRO MEDIA PLAYER UI</p>
+                </div>
+                <div>
+                    <img src="4.png" >
+                    <p>BLOG / MAGAZINE FLAT UI KIT</p>
+                </div>
+            </div>
+            <a href="#">LOAD MORE PROJECTS</a>
+        </div>
+    </section>
+    <section id="section6">
+        <div>
+            <div>
+                <h2></h2>
+                <p></p>
+            </div>
+            <div class="s6photo">
+                
+                <div class="s6circle">
+                    <div class="circle"></div>
+                    <div>
+                    <p>“Nullam dapibus blandit orci, viverra <br> gravida dui lobortis eget. 
+                        Maecenas <br> fringilla urna eu nisl scelerisque.”
+                    </p>
+                    <br> <h5>CHANEL IMAN</h5>
+                    <br><p>CEO of Pinterest</p>
+                </div>
+                </div>
+                <div class="s6circle">
+                    <div class="circle"></div>
+                    <div>
+                    <p>“Vivamus luctus urna sed urna ultricies ac <br>tempor dui sagittis.
+                         In condimentum <br> facilisis porta.”
+
+                    </p>
+                    <br><h5>ADRIANA LIMA</h5>
+                    <br><p>Founder of Instagram</p>
+                </div>
+
+                </div >
+                <div class="s6circle">
+                    <div class="circle"></div>
+                    <div>
+                    <p>“Vivamus luctus urna sed urna ultricies ac <br>tempor dui sagittis.
+                         In condimentum <br>facilisis porta.”
+
+                    </p>
+                    <br><h5>ANNE HATHAWAY</h5>
+                    <br><p>Lead Designer at Behance</p>
+                </div>
+
+                </div>
+                <div class="s6circle">
+                    <div class="circle"></div>
+                    <div>
+                    <p>“Phasellus non purus vel arcu tempor <br>commodo.
+                         Fusce semper, purus vel luctus <br>molestie, risus sem cursus neque.”</p>
+                    <br><h5>EMMA STONE</h5>
+                    <br><p>Co-Founder of Shazam</p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="section7"></section>
 
 </body>
