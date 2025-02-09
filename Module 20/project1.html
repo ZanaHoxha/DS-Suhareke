@@ -10,22 +10,29 @@
           margin: 0px;
           display: flex;
           flex-direction: column;
+          top: 0;
         }
         #section1{
             background-color: #864f9c;
             height:596px;
+            position: relative;
             
         }
         .flexbox{
             display: flex;
             flex-direction:row;
-            margin: 70px ;      
+            margin: 70px ;
+            margin-top: 30px;      
             list-style-type: none;
             justify-content: flex-end ;
         }
-       .flexbox>img {
-        margin: 60px;
-        margin-left: 210px;
+        .flexbox1:nth-child(1){
+            position: 1;
+        }
+       .flexbox1>img {
+        margin-top: 3px;
+        position:absolute;
+        margin-left: 100px;
        }
         .nav{
             text-decoration: none;
@@ -344,6 +351,97 @@
             height:930px;
             background-color: #3c5399;
             margin:0px;
+            position: relative;
+        }
+        .s7text{
+            text-align: center;
+            color: #ffffff;
+            margin: 80px;
+        }
+        .s7text>h2{
+            font-size: 40px;
+        }
+        .s7text>p{
+            font-size: 16px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .s7nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .top{
+            display: flex;
+            flex-direction:row ;
+        }
+        .top>div{
+            width: 400px;
+            height:50px;
+            border: 1px solid #273971;
+            border-radius: 2px;
+            background-color: #273971;
+            margin: 10px;
+            color: #ffffff;
+            text-align: left;
+            padding: 20px;
+        }
+        .bottom{
+            width: 860px;
+            height: 190px;
+            border: 1px solid #273971;
+            border-radius: 2px;
+            background-color: #273971;
+            margin: 10px;
+            color: #ffffff;
+            text-align: left;
+            padding: 20px;
+        }
+        .section71>a{   
+          
+            text-decoration: none;
+            border: 1px solid #2fb9e7;
+            width:140px;
+            height:30px;
+            background-color:#2fb9e7 ;
+            color: #ffffff;
+            font-size: 18px;
+            border-radius: 2px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 81px;
+            padding-right: 81px;
+            margin-left: 480px;
+            align-content: center;
+            position: absolute;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+            background-color: #334b8e;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+            width:100%;
+           
+           
+        }
+        .footer>a{
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+           
+        }
+        .footer>a:hover{
+            color: #2fb9e7;
         }
         
 
@@ -352,27 +450,26 @@
 
 <body>
     <section id="section1">
-        <div class="flexbox"> 
+        <div class="flexbox1"> 
             <img src="logo.png" class="logo">
             <nav >
-                <ul class="flexbox">
-                    <li>
+                <div class="flexbox">
                         <a href="#" class="nav">HOME</a>
-                    </li>
-                    <li>
+                    
+                   
                         <a href="#" class="nav">ABOUT</a>
-                    </li>
-                    <li>
+                    
+                    
                         <a href="#" class="nav">WORK</a>
-                    </li>
-                    <li>
+                   
+                    
                         <a href="#" class="nav">BLOG</a>
-                    </li>
-                    <li>
+                    
+                    
                         <a href="#" class="nav">CONTACT</a>
-                    </li>
+                    
                 
-                </ul>
+                </div>
             </nav>
         </div>
         <h2 class="heading1">Hi there! We are the new kids on the block 
@@ -570,7 +667,38 @@
             </div>
         </div>
     </section>
-    <section id="section7"></section>
+    <section id="section7">
+        <div class="section71">
+            <div class="s7text">
+                <h2>GET IN TOUCH</h2>
+                <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. 
+                    Tel: (202) 456-1111</p>
+            </div>
+            <div class="s7nav">
+                <div class="top">
+                    <div class="name">
+                        <p>Your Name*</p>
+                    </div>
+                    <div class="email">
+                        <p>Your Email*</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <p>Your Message*</p>
+                </div>
+            </div>
+            <a href="#">SEND MESSAGE</a>
+            <div class="footer">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Google+</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Behance</a>
+                <a href="#">Dribbble</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
