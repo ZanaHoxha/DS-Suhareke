@@ -8,6 +8,8 @@
         body{
             font-family:'open sans' ;
           margin: 0px;
+          display: flex;
+          flex-direction: column;
         }
         #section1{
             background-color: #864f9c;
@@ -246,7 +248,7 @@
             text-decoration: none;
             color:#3c4761 ;
         }
-        .s5nav :nth-child(1){
+        .s5nav>a:hover{
             background-color: #ffffff;
         }
         .s5photos{
@@ -299,20 +301,44 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin: 100px;
             position: absolute;
         }
         .s6circle{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-           
         }
-        .s6circlw>div{
+        .s6circle>div{
             margin: 20px;
-            justify-content: space-between;
-           
-
+        }
+        .paragraph6{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            width: 300px;
+        }
+        .paragraph6>div{
+            margin:5px;
+        }
+        .s6text{
+            text-align: center;
+            color: #ffffff;
+            margin: 80px;
+        
+        }
+        .s6text>h2{
+            font-size: 40px;
+        }
+        .s6text>p{
+            font-size: 16px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .section61{
+          
+           margin-left: 80px;
+           margin-right: 80px;
+         
         }
         #section7{
             height:930px;
@@ -483,55 +509,62 @@
         </div>
     </section>
     <section id="section6">
-        <div>
-            <div>
-                <h2></h2>
-                <p></p>
+        <div class="section61">
+            <div class="s6text">
+                <h2>WHAT POEPLE SAY ABOUT US</h2>
+                <p>Our clients love us!</p>
             </div>
             <div class="s6photo">
                 
                 <div class="s6circle">
                     <div class="circle"></div>
-                    <div>
+                    <div class="paragraph6">
                     <p>“Nullam dapibus blandit orci, viverra <br> gravida dui lobortis eget. 
                         Maecenas <br> fringilla urna eu nisl scelerisque.”
                     </p>
+                <div>
                     <br> <h5>CHANEL IMAN</h5>
                     <br><p>CEO of Pinterest</p>
                 </div>
                 </div>
+                </div>
                 <div class="s6circle">
                     <div class="circle"></div>
-                    <div>
+                    <div class="paragraph6">
                     <p>“Vivamus luctus urna sed urna ultricies ac <br>tempor dui sagittis.
                          In condimentum <br> facilisis porta.”
-
                     </p>
-                    <br><h5>ADRIANA LIMA</h5>
-                    <br><p>Founder of Instagram</p>
+                        <div>
+                           <br><h5>ADRIANA LIMA</h5>
+                           <br><p>Founder of Instagram</p>
+                        </div>
                 </div>
 
                 </div >
                 <div class="s6circle">
                     <div class="circle"></div>
-                    <div>
+                    <div class="paragraph6">
                     <p>“Vivamus luctus urna sed urna ultricies ac <br>tempor dui sagittis.
                          In condimentum <br>facilisis porta.”
 
                     </p>
-                    <br><h5>ANNE HATHAWAY</h5>
-                    <br><p>Lead Designer at Behance</p>
+                        <div>
+                            <br><h5>ANNE HATHAWAY</h5>
+                            <br><p>Lead Designer at Behance</p>
+                        </div>
                 </div>
 
                 </div>
                 <div class="s6circle">
                     <div class="circle"></div>
-                    <div>
-                    <p>“Phasellus non purus vel arcu tempor <br>commodo.
-                         Fusce semper, purus vel luctus <br>molestie, risus sem cursus neque.”</p>
-                    <br><h5>EMMA STONE</h5>
-                    <br><p>Co-Founder of Shazam</p>
-                </div>
+                    <div class="paragraph6">
+                        <p>“Phasellus non purus vel arcu tempor <br>commodo.
+                          Fusce semper, purus vel luctus <br>molestie, risus sem cursus neque.”</p>
+                        <div>
+                            <br><h5>EMMA STONE</h5>
+                            <br><p>Co-Founder of Shazam</p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
