@@ -1,0 +1,21 @@
+body{
+   
+    background-repeat:no-repeat ;
+    background-color: black;
+   
+}
+.maintext{
+    text-align: center;
+    color:white;
+
+}
+.maintext>h1{
+    font-size: 100px;
+}
+.maintext>h6{
+    font-size: 30px;
+}
+
+.img123>img{
+    text-align: center;
+}
