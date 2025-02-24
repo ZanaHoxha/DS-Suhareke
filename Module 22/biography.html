@@ -63,7 +63,7 @@
         }
      
         .sec22>img{
-            width: ;
+            width: 300px;
             height: auto;
         }
      
@@ -101,10 +101,35 @@
   color: transparent;
            text-align: center;
         }
+        .navigation{
+    display:flex;
+    float: right;
+    flex-direction: row;
+    position: fixed;
+    width: 95%;
+    gap: 20px;
+    justify-content: flex-end;
+    
+
+}
+.navigation>a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 6px;
+    border: 1px solid rgb(105, 104, 104);
+    border-radius: 5px;
+    background-color: rgb(105, 104, 104);
+    font-weight: bold;
+    
+}
+.navigation>a:hover{
+    background-color: rgb(146, 144, 144);
+} 
     </style>
 </head>
 <body>
-    <div>
+    <div class="navigation">
         <a href="projekt1.html">Home</a>
         <a href="biography.html">Life and Career</a>
         <a href="career.html">His Work </a>
