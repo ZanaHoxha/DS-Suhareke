@@ -1,24 +1,43 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+body {
     background-color: black;
+    padding: 10px;
+    padding-top: 0;
+    position: relative;
+
+}
+.weeknd-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+  
+    text-align: center;
+  
 }
 .maintext{
     text-align: center;
     color:white;
+    padding-top: 100px;
+    padding-bottom: 0;
 
 }
-.maintext>h1{
-    font-size: 100px;
-    padding-top: 150px;
-}
+
 .maintext>h6{
     font-size: 30px;
 }
 
 .img123>img{
-  width: 50%;
-  padding-left: 25%;
-  padding-top: 0%;
+  width: 60%;
+
+  padding-left: 20%;
+  padding-top: 0;
+  margin-top: 0;
   text-align: center;
+  display: block;
+  position: absolute;
+ 
 }
 .navigation{
     display:flex;
@@ -36,12 +55,17 @@ body{
     font-size: 18px;
     text-decoration: none;
     padding: 6px;
-    border: 1px solid rgb(105, 104, 104);
+    border: 1px solid rgb(59, 59, 59);
     border-radius: 5px;
-    background-color: rgb(105, 104, 104);
+    background-color: rgb(68, 68, 68);
     font-weight: bold;
     
 }
 .navigation>a:hover{
     background-color: rgb(146, 144, 144);
 } 
+.logo{
+    float: left;
+    width:80px;
+    padding: 0;
+}
