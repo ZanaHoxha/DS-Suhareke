@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+   
+        function Song(title,artist,minutes){
+            this.title=title;
+            this.artist=artist;
+            this.minutes=minutes;
+
+            this.printSummary= function() {
+                console.log(`${this.title} by ${this.artist} has ${this.minutes}.`);
+            };
+        }
+        const mySong= new Song ('Priviledge ', 'The Weeknd', 3);
+        mySong.printSummary();
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
