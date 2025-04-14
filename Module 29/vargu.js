@@ -1,6 +1,7 @@
 var programmingLanguage=['PHP','JS','HTML'];
 console.log(programmingLanguage);
 console.log(programmingLanguage[0]);
+
 programmingLanguage.push("CSS");
 console.log(programmingLanguage);
 
