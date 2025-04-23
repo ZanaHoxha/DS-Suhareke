@@ -11,11 +11,11 @@ function showCurrentTime(){
     var second = currentTime.getSeconds();
     var meridian= "AM";
     if(hours>=noon){
-        maridian="PM";
+        meridian="PM";
 
     }
     var clockTime=hours + ":" + minutes + ":" + seconds + "" + meridian;
-    clock.innerTime= clockTime;
+    clock.innerText= clockTime;
     changeImage();
 
 };
@@ -27,4 +27,28 @@ function changeImage(){
     console.log(time);
     var image= "ds_clock.png";
     var imageHTML=document.getElementById("timeImage");
+    if(time == wakeuptime){
+        images="morning.gif";
+        console.log("morning");
+
+    }
+    else if(time == dstime){
+        images= "class.gif";
+    }
+    else if(time == sleeptime){
+        images="night.gif";
+
+    }
+    imageHTML.src = image;
+    console.log(imageHTML.src);
 }
+function updateClock(){
+    var wakeUpTimeSelector = document.getElementById('wakeUpTimeSelector');
+    wakeuptime=wakeUpTimeSelector.value;
+    var dsTimeSelector = document.getElementById('dsTimeSelector');
+    dstime = dsTimeSelector.value;
+    var sleepTimeSelector=document.getElementById('sleepTimeSelector');
+    sleepTime = sleepTimeSelector.value;
+}
+var saveButton = document.getElementById("saveButton");
+saveButton.addEventListener("click",updateClock);
