@@ -14,7 +14,7 @@ function changeBgColor(){
     var names=['John','Ana','Bob','Mark'];
     function changeNames(){
         document.querySelector('p').innerHTML=
-        colors[Math.floor(Math.random()*names.length)];
+        names[Math.floor(Math.random()*names.length)];
     }
     setInterval(changeBgColor, 1000);
     setInterval(changeNames, 1000);
