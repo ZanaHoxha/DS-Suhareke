@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .error{
+    visibility: hidden;
+    color:red;
+}
+    </style>
+
+</head>
+<body>
+<form id="nameForm">
+    <label for="username">Name:</label>
+    <input type="text" id="username" name="username"/>
+    <span id="errorMsg" class="error"></span>
+    <br><br>
+    <button typr="submit">Submit</button>
+
+</form>
+<script>
+    const form=document.getElementById('nameForm');
+    const usernameInput=document.getElementById('username');
+    const errorMsg=document.getElementById('errorMsg');
+    form.addEventListener('submit',function(event){
+    event.preventDefault(); //parandalon submit te formularit
+    const name=usernameInput.value;
+    const onlyLetters=/^[A-Za-z]+$/;
+    if(!onlyLetter.test(name)){
+        errorMsg.textContext="please use letters only";
+    }
+    else{
+        errorMsg.testContent="";
+        //Shto kodin
+        alert("Form submitted successfully!");
+    }
+}
+);
+</script>
+</body>
+</html>
