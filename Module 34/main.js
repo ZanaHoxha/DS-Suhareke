@@ -1,22 +1,25 @@
 //function printNames(){
-    //document.write("John");
-    // document.write("<br");
-    // setTimeout(function() {document.write("Ana");},3000);
-    // document.write("Bob");
+    //document.write("john");
+    //document.write("<br");
+    //setTimeout(function () {document.write("ana")},3000);
+   // document.write("bob");
 //}
 //printNames();
+
 var colors=['red','green','blue','purple'];
 
 function changeBgColor(){
-        document.querySelector('body').style.baxkground=
-        colors[Math.floor(Math.random()*colors.length)];
-    }
-    var names=['John','Ana','Bob','Mark'];
-    function changeNames(){
-        document.querySelector('p').innerHTML=
-        names[Math.floor(Math.random()*names.length)];
-    }
-    setInterval(changeBgColor, 1000);
-    setInterval(changeNames, 1000);
+        document.querySelector('body').style.background=colors[Math.floor(Math.random()*colors.length)];
+
+}
+var names=['john','ana','bob','mark'];
+
+function changeNames(){
+    document.querySelector('p').innerHTML=
+names[Math.floor(Math.random()*names.length)];
+}
+
+setInterval(changeBgColor,1000);
+setInterval(changeNames,1000);
 
     
