@@ -22,7 +22,7 @@ form.addEventListener('submit', function(event) {
     var nameValue = ageInput.value;
 
     if (!/^[0-9]+$/.test(nameValue)) {
-        // Show error if input is not only letters
+        // Show error if input is not only numbers
         errorMessage.style.display = 'inline';
     } else {
         // Hide error and show success
