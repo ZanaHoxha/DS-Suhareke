@@ -5,37 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .body{
-            font-family:Arial;
-            padding: 20px;
-        }
-        .error{
-            color:red;
-        }
+        body{font-family: Arial; padding: 20px;}
+        .error{color: red;}
+
     </style>
 </head>
 <body>
-    <form id="nameForm">
+    <h2>Form Validation</h2>
+    <form id="myForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required><br>
+    <span id="nameError" class="error"></span><br>
 
-        <label for="name">shkruani emrin:</label>
-        <br>
-        <br>
-        <input type="text" id="name" name="name" required>
-        <span id="error" class="error">lejohen se paku 2 shkronja</span>
-        <br>
-        <br>
-        <button type="submit">dergo</button>
-        <br>
-        <br>
-        <label for="name">shkruani moshen:</label>
-        <br>
-        <br>
-        <input type="text" id="age" name="age" required>
-        <span id="error1" class="error">lejohen vetem numrat nga 0-120</span>
-        <br>
-        <br>
-        <button type="submit">dergo</button>
-        </form>
-    <script src="medium.js"></script>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br>
+    <span id="ageError" class="error"></span><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
 </body>
 </html>
