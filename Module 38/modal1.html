@@ -7,22 +7,30 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container mt-3">
-        <h3>Full screen</h3>
-        <p>click on the button to open fullscreen modal</p>
-        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mymodal">Open Modal</button>
-    </div>
-    <div class="modal" id="mymodal">
-        <div class="modal-dialog modal-fullscreeen">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                   
-                </div>
+<div class="container mt-3">
+    <h3>Fullscreen</h3>
+    <p>Click on the button to open fullscreen modal</p>
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">Open Modal</button>
+
+</div>
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="btn-close" dabs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Modal Body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Modal Body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
-    <script src="js/bootstrap.bundle.min.js"></script>
-
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
